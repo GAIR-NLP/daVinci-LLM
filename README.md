@@ -30,12 +30,18 @@ daVinci-LLM is a fully-open pretraining research project by GAIR-NLP that aims t
 
 ## 📊 Key Results
 
+We train a 3B-parameter model from random initialization across **8T tokens** using a **two-stage curriculum**: Stage 1 (6T) builds broad foundations with progressive data adjustment, while Stage 2 (2T) shifts to reasoning-intensive enhancement by introducing large-scale structured QA alongside code and science.
+
+<div align="center">
+  <img src="fig/teaser-1.png" alt="Training & evaluation pipeline" width="95%" />
+</div>
+
 - **Overall average: 51.72** for **daVinci-LLM-3B**, matching **OLMo-3 7B (51.65)** despite less than half the parameters.  
 - **MATH: 62.80** for daVinci-LLM-3B, with strong gains in science reasoning.  
 - Evaluated across **19 benchmarks** covering General, Code, and Science domains.
 
 <div align="center">
-  <img src="fig/teaser-1.png" alt="Performance teaser" width="95%" />
+  <img src="fig/score-daVinci-llm.pdf" alt="Performance results" width="95%" />
 </div>
 
 
@@ -45,4 +51,3 @@ Citation will be provided once the paper is publicly available.
 
 ---
 
-> This repository currently contains documentation only; code will be released in stages.
