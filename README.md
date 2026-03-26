@@ -41,7 +41,7 @@ We train a 3B-parameter model from random initialization across **8T tokens** us
 - Evaluated across **19 benchmarks** covering General, Code, and Science domains.
 
 <div align="center">
-  <img src="fig/score-daVinci-llm.pdf" alt="Performance results" width="95%" />
+  <img src="fig/score-daVinci-llm.png" alt="Performance results" width="95%" />
 </div>
 
 
