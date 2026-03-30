@@ -8,7 +8,6 @@
 
 </div>
 
----
 
 ## 🔬 Why This Project Matters
 
@@ -25,8 +24,6 @@ Pretraining determines a model's capability ceiling; post-training can refine an
 **daVinci-LLM**, developed by the **GAIR-NLP group at Shanghai Innovation Institute (SII)**, addresses this gap directly. We adopt a fully-open paradigm that treats openness itself as scientific methodology—releasing not only model weights, but **200+ controlled ablation results**, complete data processing pipelines, training decision logic, and even the failed attempts. This enables the community to understand *why* the model was trained this way, not merely *what* it produced.
 
 
-
----
 
 ## 🎁 Open-Source Artifacts
 
@@ -50,14 +47,13 @@ We publicly release the following artifacts to facilitate reproducibility and su
 | Training Logs | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Intermediate Checkpoints | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Full Training Data | ❌ | ❌ | Partial | ✅ | ✅ |
-| **Processing Methodology (L0–L9)** | ❌ | ❌ | ❌ | ❌ | **✅** |
+| **Processing Methodology** | ❌ | ❌ | ❌ | ❌ | **✅** (L0–L9) |
 | **Mixture Rationale** | ❌ | ❌ | ❌ | Partial | **✅** |
 | **Decision Transparency** | ❌ | ❌ | ❌ | Partial | **✅** |
 | **Negative Results** | ❌ | ❌ | ❌ | ❌ | **✅** |
 
----
 
-## �️ Three Pillars of Full Openness
+## 🏛️ Three Pillars of Full Openness
 
 daVinci-LLM is structured around three pillars, each contributing to transparency and reproducibility:
 
@@ -150,7 +146,6 @@ Through over **200 controlled experiments**, we systematically investigate four 
 
 </details>
 
----
 
 ## 📊 Key Results: 3B Matches 7B
 
@@ -193,7 +188,6 @@ Particularly noteworthy is the MATH benchmark performance: **daVinci-3B achieves
 - Two-stage QA intensification achieves targeted enhancement on a balanced foundation, avoiding capability imbalance from unidimensional training
 
 
----
 
 ## 🌟 Contributions to the Community
 
@@ -203,7 +197,6 @@ Particularly noteworthy is the MATH benchmark performance: **daVinci-3B achieves
 
 3. **Transferable Methodological Foundations**: The Data Darwinism framework, systematic exploration methodology, and complete documentation of successes and failures constitute reusable research infrastructure. Researchers can apply this system to evaluate their own data and strategies, building on documented boundary conditions without retracing the same missteps — forming the foundation of an accumulative scientific knowledge base for pretraining.
 
----
 
 ## 🚀 Quick Start
 
@@ -219,7 +212,6 @@ Model and dataset are available on HuggingFace:
 
 For detailed usage instructions and evaluation setup, please refer to the [Technical Report](https://github.com/GAIR-NLP/daVinci-LLM/blob/main/report.pdf).
 
----
 
 ## 🔮 Future Directions
 
@@ -229,7 +221,6 @@ Does the model truly "understand" the task, or has it merely memorized patterns?
 
 daVinci-LLM takes a step toward making the exploration process transparent. But establishing a true science of pretraining requires open collaboration from the entire community — when exploration processes become the norm and empirical knowledge accumulates, pretraining can genuinely transition from "black-box alchemy" to a scientific discipline.
 
----
 
 ## 📚 Citation
 
