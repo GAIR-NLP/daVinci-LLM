@@ -36,7 +36,7 @@ We publicly release the following artifacts to facilitate reproducibility and su
 | 📊 **Data Processing Method** | Complete prompts for generative refinement and cognitive completion; filtering, deduplication, and synthesis code |
 | ✅ **Evaluation Suite** | All 19 benchmark configurations and scoring code |
 | 📄 **Technical Report** | Complete decision-making logic with 200+ ablation results |
-| 🔧 **Pretrain Toolkit** (Comming soon)| A practical toolkit that packages daVinci’s pretraining know-how into reusable components for dataset refinement, recipe tuning, checkpoint reuse, and training health analysis—helping the community pretrain smarter and avoid costly trial-and-error
+| 🔧 **Pretrain Toolkit** (Comming soon)| A practical toolkit that packages daVinci’s pretraining know-how into reusable components for dataset refinement, recipe tuning, checkpoint reuse, and training health analysis—making pretraining more accessible reproducible, and efficient for researchers.
 
 ## 🆚 Differentiation from Existing Work
 
@@ -128,7 +128,14 @@ Through over **200 controlled experiments**, we systematically investigate four 
 ## 📊 Key Results: 3B Matches 7B
 
 
-Our **daVinci-LLM-3B** (trained from random initialization over 8T tokens) achieves an **overall average of 51.72, matching OLMo-3 7B (51.65)** in comprehensive evaluation despite having less than half the parameters, and significantly outperforming parameter-matched baselines such as LLaMA-3.2-3B.
+Our **daVinci-LLM-3B** (trained from random initialization over 8T tokens) achieves an **overall average of 51.72, matching OLMo-3 7B (51.65)** in comprehensive evaluation despite having less than half the parameters, and significantly outperforming parameter-matched baselines such as LLaMA-3.2-3B, especially in scientific reasoning, demonstrating the effectiveness of Data Darwinism processing in science domains.
+
+| Capability Dimension | daVinci-3B | OLMo-3 7B | LLaMA-3.2-3B | Qwen-2.5-3B |
+| -------------------- | ---------: | --------: | -----------: | ----------: |
+| Overall Perfomance   |      51.72 |     51.65 |        37.58 |       51.44 |
+| General Knowledge    |      52.96 |     55.13 |        51.08 |       55.16 |
+| Code Generation      |      55.99 |     54.42 |        32.40 |       56.13 |
+| Scientific Reasoning |      48.30 |     45.98 |        22.45 |       44.65 |
 
 
 ## 📚 Citation
