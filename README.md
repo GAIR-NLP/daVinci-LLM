@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/📄_Technical_Report-PDF-red)](https://github.com/GAIR-NLP/daVinci-LLM/blob/main/report.pdf)
+[![Paper](https://img.shields.io/badge/📄_Paper-arXiv-red)](https://arxiv.org/abs/2603.27164)
 [![Dataset](https://img.shields.io/badge/🤗_Dataset-davinci--llm--data-yellow)](https://huggingface.co/datasets/SII-GAIR-NLP/davinci-llm-data)
 [![Model](https://img.shields.io/badge/🤗_Model-davinci--llm--model-blue)](https://huggingface.co/SII-GAIR-NLP/davinci-llm-model)
 
@@ -210,7 +210,7 @@ Model and dataset are available on HuggingFace:
 - **Model**: [SII-GAIR-NLP/davinci-llm-model](https://huggingface.co/SII-GAIR-NLP/davinci-llm-model)
 - **Dataset**: [SII-GAIR-NLP/davinci-llm-data](https://huggingface.co/datasets/SII-GAIR-NLP/davinci-llm-data)
 
-For detailed usage instructions and evaluation setup, please refer to the [Technical Report](https://github.com/GAIR-NLP/daVinci-LLM/blob/main/report.pdf).
+For detailed usage instructions and evaluation setup, please refer to the [Technical Report](https://arxiv.org/pdf/2603.27164).
 
 
 ## 🔮 Future Directions
@@ -224,4 +224,14 @@ daVinci-LLM takes a step toward making the exploration process transparent. But 
 
 ## 📚 Citation
 
-Citation will be provided once the paper is publicly available.
+```bibtex
+@misc{qin2026davincillmtowardssciencepretraining,
+      title={daVinci-LLM:Towards the Science of Pretraining},
+      author={Yiwei Qin and Yixiu Liu and Tiantian Mi and Muhang Xie and Zhen Huang and Weiye Si and Pengrui Lu and Siyuan Feng and Xia Wu and Liming Liu and Ye Luo and Jinlong Hou and Qipeng Guo and Yu Qiao and Pengfei Liu},
+      year={2026},
+      eprint={2603.27164},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.27164},
+}
+```
